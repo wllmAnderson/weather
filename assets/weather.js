@@ -51,6 +51,7 @@ $.ajax({
 });
 
 
+// not working
 //(function () {
   //  var old = console.log;
    // var logger = document. getElementById('log');
