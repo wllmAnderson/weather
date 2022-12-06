@@ -10,11 +10,15 @@
     ></script>
   </head>
   <body>
-    <form  action="https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid=2c479dfacc57a44301b67fd8100ab6c6
+    <form  action="http://api.openweathermap.org/geo/1.0/direct?q={city name}&limit={limit}&appid=2c479dfacc57a44301b67fd8100ab6c6
     " method="post">
-      <input type="text" name="cityName" placeholder="Enter your city"></input>
-      <button type="submit" name="submit">Submit</button>
     </form>
+    <script>
+      function visitPage(){
+          window.location='http://api.openweathermap.org/geo/1.0/direct?q=London&limit=5&appid=2c479dfacc57a44301b67fd8100ab6c6';
+      }
+  </script>
+  <button onclick="visitPage();">Visit Page Now</button>
     <script src="assets/weather.js"></script>
   </body>
   

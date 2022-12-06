@@ -30,7 +30,7 @@ $.ajax({
 
 //
 
-//var requestUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid=2c479dfacc57a44301b67fd8100ab6c6';
+
 
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
